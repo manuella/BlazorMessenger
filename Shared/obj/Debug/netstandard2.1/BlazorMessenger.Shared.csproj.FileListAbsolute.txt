@@ -1,0 +1,9 @@
+C:\Users\EvanF\Develop\DotNetifyToBlazor\BlazorMessenger\Shared\bin\Debug\netstandard2.1\BlazorMessenger.Shared.deps.json
+C:\Users\EvanF\Develop\DotNetifyToBlazor\BlazorMessenger\Shared\bin\Debug\netstandard2.1\BlazorMessenger.Shared.dll
+C:\Users\EvanF\Develop\DotNetifyToBlazor\BlazorMessenger\Shared\bin\Debug\netstandard2.1\BlazorMessenger.Shared.pdb
+C:\Users\EvanF\Develop\DotNetifyToBlazor\BlazorMessenger\Shared\obj\Debug\netstandard2.1\BlazorMessenger.Shared.csprojAssemblyReference.cache
+C:\Users\EvanF\Develop\DotNetifyToBlazor\BlazorMessenger\Shared\obj\Debug\netstandard2.1\BlazorMessenger.Shared.AssemblyInfoInputs.cache
+C:\Users\EvanF\Develop\DotNetifyToBlazor\BlazorMessenger\Shared\obj\Debug\netstandard2.1\BlazorMessenger.Shared.AssemblyInfo.cs
+C:\Users\EvanF\Develop\DotNetifyToBlazor\BlazorMessenger\Shared\obj\Debug\netstandard2.1\BlazorMessenger.Shared.csproj.CoreCompileInputs.cache
+C:\Users\EvanF\Develop\DotNetifyToBlazor\BlazorMessenger\Shared\obj\Debug\netstandard2.1\BlazorMessenger.Shared.dll
+C:\Users\EvanF\Develop\DotNetifyToBlazor\BlazorMessenger\Shared\obj\Debug\netstandard2.1\BlazorMessenger.Shared.pdb
