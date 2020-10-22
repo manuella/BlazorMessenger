@@ -2,8 +2,11 @@
 @using Microsoft.AspNetCore.SignalR.Client
 @inject NavigationManager NavigationManager
 @implements IDisposable
+@inject IJSRuntime Jsr
 
-<div class="form-group">
+<div id="reactMessenger"></div>
+
+@* <div class="form-group">
     <label>
         User:
         <input @bind="userInput" />
@@ -11,7 +14,6 @@
 </div>
 <div class="form-group">
     <label>
-        Message:
         <input @bind="messageInput" size="50" />
     </label>
 </div>
@@ -24,7 +26,7 @@
     {
         <li>@message</li>
     }
-</ul>
+</ul> *@
 
 @code {
     private HubConnection hubConnection;
@@ -46,8 +48,15 @@
         });
 
         await hubConnection.StartAsync();
+
+        RenderMessenger();
     }
 
+
+    async void RenderMessenger()
+    {
+        await Jsr.InvokeVoidAsync("RenderMessenger", "");
+    }
     Task Send() =>
         hubConnection.SendAsync("SendMessage", userInput, messageInput);
 
