@@ -55,7 +55,7 @@
 
     async void RenderMessenger()
     {
-        await Jsr.InvokeVoidAsync("RenderMessenger", "");
+        await Jsr.InvokeVoidAsync("ReactLib.RenderMessengerComponent", "reactMessenger"); 
     }
     Task Send() =>
         hubConnection.SendAsync("SendMessage", userInput, messageInput);
