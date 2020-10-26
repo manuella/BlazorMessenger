@@ -15,7 +15,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, '../wwwroot/js'),
-        filename: "my_lib.js",
+        filename: "react_lib.js",
         library: "ReactLib"
     }
 };

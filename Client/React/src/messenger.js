@@ -8,7 +8,7 @@ export class Messenger extends Component {
     this.scrollToBottom = () =>
       this.bottomElem.scrollIntoView({ behavior: "smooth" });
 
-    this.vm = dotnetify.react.connect("MessengerVM", this);
+    // this.vm = dotnetify.react.connect("MessengerVM", this);
     this.dispatchState = (state) => this.vm.$dispatch(state);
   }
 
@@ -114,7 +114,7 @@ export class Messenger extends Component {
 
 export function RenderMessenger(elementId) 
 {
-    const element = <h1>Hello, world</h1>;
+    const element = <Messenger></Messenger>;
     var target = document.getElementById(elementId);
     console.log('Element! ' + element);
     console.log('Target! ' + target);
